@@ -1,0 +1,402 @@
+/* CSS RESET */
+/* HTML5 display-role reset for older browsers */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+  font-family: 'Open Sans';
+  letter-spacing: 0px;
+}
+h1, h2, h3, h4, h5 {
+  color: white;
+}
+h1 {
+  font-size: 28px;
+  font-weight: normal;
+}
+h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-top: 30px;
+}
+h3, h4, h5 {
+  font-weight: lighter;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 14px;
+  margin-top: 40px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+p {
+  font-weight: lighter;
+  font-size: 14px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#first, #second, #third, #fourth, #fifth, #sixth {
+  width: 100%;
+  position: relative;
+  float: left;
+  left: 0;
+  top: 0;
+}
+#first {
+  background-color: #251b5a;
+  padding-bottom: 30px;
+}
+#second {
+  background-color: #f2f2f2;
+}
+#second .fa {
+  margin-left: -50px;
+  margin-right: 10px;
+  font-size: 30px;
+  vertical-align: middle;
+}
+#third {
+  background: url('../img/third-bg.png') top center no-repeat;
+  background-size: 100%;
+  height: 350px;
+}
+#fourth {
+  padding-bottom: 40px;
+}
+#fifth {
+  background-color: #494949;
+  height: 250px;
+  padding-bottom: 40px;
+}
+#fifth .fa {
+  font-size: 40px;
+}
+#sixth {
+  padding-bottom: 40px;
+}
+#sixth h1 {
+  color: black;
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+}
+.wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: 40px auto 0 auto;
+}
+.col-1 ul {
+  width: 65%;
+  background: url('../img/divisor.png') right center no-repeat;
+  height: 320px;
+  padding-right: 3%;
+  float: left;
+}
+.col-1 li {
+  float: left;
+  width: 100%;
+}
+.col-2 {
+  text-align: center;
+}
+.col-2 ul {
+  width: 25%;
+  height: 320px;
+  float: right;
+}
+.col-3 {
+  width: 28%;
+  text-align: center;
+  color: white;
+  padding: 2%;
+}
+.col-3 h6 {
+  margin-bottom: 10px;
+}
+.col-50 {
+  width: 46%;
+  padding: 2%;
+}
+.col-50 li {
+  border-bottom: 13px solid #e3e3e3;
+  margin-bottom: 20px;
+}
+.logo {
+  float: left;
+  background: url('../img/logo-mobfirst.png') center center no-repeat;
+  width: 200px;
+  height: 78px;
+  text-indent: -9999px;
+  margin-right: 40px;
+}
+.mobiles {
+  float: left;
+  background: url('../img/android_ios.png') center center no-repeat;
+  width: 80px;
+  height: 40px;
+  text-indent: -9999px;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+.edit {
+  float: left;
+  background: url('../img/edit.png') center center no-repeat;
+  width: 80px;
+  height: 90px;
+  text-indent: -9999px;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+.mobfirst_button {
+  background-color: transparent !important;
+  border: 1px solid white !important;
+  color: white !important;
+  border-radius: 5px !important;
+  width: 120px !important;
+  height: 35px !important;
+}
+.mobfirst_button:hover {
+  background-color: #ff9549 !important;
+  cursor: pointer !important;
+}
+.hire {
+  margin-right: 5px;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+.col-60 {
+  width: 60%;
+}
+.col-60  ul {
+	position: relative;
+	float: left;
+}
+.col-60 li {
+  width: 40%;
+  float: left;
+  padding-right: 10%;
+}
+.second-wr {
+  padding-bottom: 40px;
+  background: url('../img/second-bg.jpg') 12% bottom no-repeat;
+  background-size: 25%;
+  height: 480px;
+}
+.quote {
+  color: white;
+  float: left;
+  width: 32%;
+  position: relative;
+  text-align: center;
+  line-height: 1;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+.quote small {
+  line-height: 5;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+}
+.quote span {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+.pyramid {
+  width: 40%;
+  height: 460px;
+  background: url('../img/trian.png') center center no-repeat;
+  background-size: 100%;
+  margin-left: 100px;
+}
+.pyramid-pt {
+  width: 40%;
+  height: 460px;
+  background: url('../img/trian-pt.png') center center no-repeat;
+  background-size: 100%;
+  margin-left: 100px;
+}
+.fourth-text {
+  text-align: center;
+  width: 27%;
+  margin-right: 200px;
+  margin-top: 20px;
+}
+.fourth-text h6 {
+  margin-bottom: 5px;
+}
+.dark-gray {
+  color: #494949;
+}
+.gray {
+  color: #cdcdcd;
+}
+.blue {
+  color: #add8e6;
+}
+.nobootstrap {
+  min-width: 0 !important;
+  padding: 0 !important;
+}
+@media screen and (max-width: 1400px) {
+  h1 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  #first {
+    height: 380px;
+  }
+  #third {
+    height: 276px;
+  }
+  .col-1 ul {
+    width: 55%;
+  }
+  .col-2 ul {
+    padding-right: 3%;
+    width: 30%;
+  }
+  .logo {
+    width: 150px;
+    background-size: 100%;
+  }
+  .mobiles {
+    margin-left: 12px;
+  }
+  .edit {
+    margin-left: 12px;
+  }
+  .second-wr {
+    height: 435px;
+    padding-bottom: 40px;
+    background-position: 12%;
+  }
+  .quote {
+    margin-top: 30px;
+    width: 40%;
+  }
+  
+}
+@media screen and (max-width: 1119px) {
+  h1, h3 {
+    text-align: center;
+  }
+  #first {
+    height: 850px;
+  }
+  #second .fa {
+    margin-left: 0px;
+  }
+  #third {
+    background-size: 250%;
+    height: 216px;
+  }
+  #fifth {
+    height: 530px;
+  }
+  #sixth h1 {
+    font-size: 30px;
+  }
+  #sixth ul {
+    padding: 0;
+  }
+  .col-1 {
+    height: 500px;
+  }
+  .col-1 ul {
+    width: 92%;
+    padding: 0 4%;
+    background-image: none;
+  }
+  .col-2 ul {
+    float: left;
+    width: 92%;
+    padding: 0 4%;
+	margin-top: 40px;
+  }
+  .col-3 {
+    width: 100%;
+    padding: 0;
+  }
+  .col-50 {
+    width: 92%;
+    padding: 0 4%;
+  }
+  .col-50 li {
+    font-size: 1em;
+  }
+  .col-60 {
+    width: 92%;
+    padding: 0 4%;
+  }
+  .col-60 li {
+    width: 100%;
+  }
+  .logo {
+    width: 100%;
+    background-size: 60%;
+  }
+  .mobiles, .edit {
+    width: 100%;
+	margin-left: 0;
+  }
+  .second-wr {
+    background-image: none;
+  }
+  .quote {
+    width: 92%;
+    padding: 0 4%;
+    margin: 0;
+  }
+  .pyramid {
+    width: 100%;
+    margin: 0;
+    height: 400px;
+  }
+  .pyramid-pt {
+    width: 100%;
+    margin: 0;
+    height: 400px;
+  }
+  .fourth-text {
+    width: 100%;
+    margin: 0;
+  }
+}
